@@ -12,8 +12,8 @@ Practice exam:
 - [TutorialsDojo | Jon Bonso](https://portal.tutorialsdojo.com/courses/aws-certified-developer-associate-practice-exams/)
 
 ## Other resource
-- https://explore.skillbuilder.aws/learn/course/external/view/elearning/14723/exam-prep-aws-certified-developer-associate-dva-c02-with-practice-material
-- https://aws.amazon.com/whitepapers/?whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc&awsf.whitepapers-content-type=*all&awsf.whitepapers-tech-category=*all&awsf.whitepapers-industries=*all&awsf.whitepapers-business-category=*all&awsf.whitepapers-global-methodology=*all
+- [AWS Skillbuilder Exam Prep](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14723/exam-prep-aws-certified-developer-associate-dva-c02-with-practice-material)
+- [Whitepaper](https://aws.amazon.com/whitepapers/?whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc&awsf.whitepapers-content-type=*all&awsf.whitepapers-tech-category=*all&awsf.whitepapers-industries=*all&awsf.whitepapers-business-category=*all&awsf.whitepapers-global-methodology=*all)
 
 
 

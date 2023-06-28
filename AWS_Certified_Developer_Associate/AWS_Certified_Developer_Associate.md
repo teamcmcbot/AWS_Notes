@@ -8,4 +8,4 @@ Course Taken:
 
 ## Practice Exams
 Practice exam:
-- [Practice Exams | AWS Certified Developer Associate 2023] (https://www.udemy.com/course/aws-certified-developer-associate-practice-tests-dva-c01)
+- [Practice Exams AWS Certified Developer Associate 2023] (https://www.udemy.com/course/aws-certified-developer-associate-practice-tests-dva-c01)

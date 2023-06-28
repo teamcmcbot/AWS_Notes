@@ -1,4 +1,4 @@
-## Domain 1: Development with AWS Services 
+## Domain 1: Development with AWS Services (32%)
 Task statement 1: Develop code for applications hosted on AWS.
 
 Knowledge of:
@@ -60,7 +60,7 @@ Skills in:
 - Managing data lifecycles 
 - Using data caching services 
 
-## Domain 2: Security 
+## Domain 2: Security (26%)
 Task Statement 1: Implement authentication and/or authorization for applications and AWS services.
 
 Knowledge of:
@@ -115,7 +115,7 @@ Skills in:
 - Using secret management services to secure sensitive data 
 - Sanitizing sensitive data 
 
-## Domain 3: Deployment 
+## Domain 3: Deployment (24%)
 Task Statement 1: Prepare application artifacts to be deployed to AWS.
 
 Knowledge of: 
@@ -192,7 +192,7 @@ templates)
 - Using existing runtime configurations to create dynamic deployments (for example, using 
 staging variables from API Gateway in Lambda functions)
 
-## Domain 4: Troubleshooting and Optimization 
+## Domain 4: Troubleshooting and Optimization (18%)
 Task Statement 1: Assist in a root cause analysis. 
 
 Knowledge of:

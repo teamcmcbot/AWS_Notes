@@ -3,6 +3,8 @@
 
 The purpose of this is to consolidate and document my preparation for AWS Certified Developer Associate (DVA-C02) exam.
 
+<https://aws.amazon.com/certification/certified-developer-associate/>
+
 ## Courses
 Video Course:
 - [acloudguru](https://learn.acloud.guru/course/aws-certified-developer-associate/overview)

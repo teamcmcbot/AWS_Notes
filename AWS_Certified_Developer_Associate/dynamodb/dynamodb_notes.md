@@ -1,5 +1,19 @@
 # DynamoDB
 
+## DynamoDB Access Control
+- DynamoDB provides access control mechanisms to secure and control access to your tables and data.
+- Access control in DynamoDB is primarily managed through AWS Identity and Access Management (IAM).
+- IAM allows you to define fine-grained permissions for users, groups, and roles, granting or denying access - to specific DynamoDB resources.
+- Permissions can be set at the table level, enabling you to control read, write, and management actions.
+- IAM policies define the permissions and are attached to IAM entities.
+- You can also use Attribute-Based Access Control (ABAC) to set fine-grained access controls based on item - attributes.
+- ABAC allows you to define conditional expressions in IAM policies, granting or denying access based on - attribute values.
+- Additionally, you can use Identity-Based Access Control (IBAC) to control access based on user identities, - roles, or group memberships.
+- DynamoDB also integrates with other AWS services like AWS Identity Federation and Amazon Cognito for more - advanced access control scenarios.
+- Monitoring and auditing tools like AWS CloudTrail can be used to track access and changes to DynamoDB resources.
+
+By properly configuring and managing access control, you can ensure the security and privacy of your DynamoDB tables and data.
+
 ## Global Secondary Index vs Local Secondary Index
 
 Global Secondary Index (GSI) and Local Secondary Index (LSI) are two types of indexes in Amazon DynamoDB that provide efficient querying capabilities.
@@ -23,3 +37,7 @@ Global Secondary Index (GSI) and Local Secondary Index (LSI) are two types of in
 GSIs and LSIs enhance data access patterns and allow flexible querying in DynamoDB. Consider the access patterns and query requirements when designing your table schema to decide the appropriate use of GSIs, LSIs, or a combination of both.
 
 Remember, GSIs provide broader querying capabilities with different keys, while LSIs offer specific querying within a partition.
+
+## Scan vs Query API call
+
+## DynamoDB API Calls

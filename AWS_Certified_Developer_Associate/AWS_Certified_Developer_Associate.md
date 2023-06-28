@@ -1,11 +1,11 @@
-# AWS_Certified_Developer_Associate Notes
+# AWS Certified Developer Associate Notes
 ![Developer Associate Badge](https://images.credly.com/size/220x220/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png)
 
 The purpose of this is to consolidate and document my preparation for AWS Certified Developer Associate (DVA-C02) exam.
 
 ## Courses
 Video Course:
-- acloudguru
+- [acloudguru](https://learn.acloud.guru/course/aws-certified-developer-associate/overview)
 - [Udemy course by Stephane Maarek](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01) 
 
 ## Practice Exams

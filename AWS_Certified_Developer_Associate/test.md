@@ -39,6 +39,7 @@ To create a code block, use triple backticks:
 ```python
 def greet():
     print("Hello, world!")
+```
 
 ## Tables
 | Name   | Age | Location     |

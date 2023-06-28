@@ -1,5 +1,6 @@
 # AWS_Certified_Developer_Associate Notes
 Documenting my preparation for AWS Certified Developer - Associate exam.
+![Developer Associate Badge](https://images.credly.com/size/220x220/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png)
 
 ## Courses
 Video Course:
@@ -19,7 +20,7 @@ Practice exam:
 ## Exam Guide
 
 | Domain                                    | % of Exam |
-|-------------------------------------------|-----------|
+|:------------------------------------------|:----------|
 | Domain 1: Development with AWS Services   | 32%       |
 | Domain 2: Security                        | 26%       |
 | Domain 3: Deployment                      | 24%       |

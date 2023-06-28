@@ -28,7 +28,7 @@ Practice exam:
 
 ## Cost
 | Item                            | Cost                |
-|---------------------------------|---------------------|
+|:--------------------------------|:--------------------|
 | acloudguru                      | *PAID*              |
 | Udemy course by Stephane Maarek | S$17.98 ~ $13.88 USD|
 | Udemy practice exam             | S$12.98 ~ $10.03 USD|

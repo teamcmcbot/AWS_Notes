@@ -39,3 +39,13 @@ To create a code block, use triple backticks:
 ```python
 def greet():
     print("Hello, world!")
+
+## Tables
+| Name   | Age | Location     |
+|--------|-----|--------------|
+| John   | 25  | New York     |
+| Sarah  | 30  | Los Angeles  |
+| David  | 28  | San Francisco|
+
+## Blockquotes
+> "Be yourself; everyone else is already taken." - Oscar Wilde

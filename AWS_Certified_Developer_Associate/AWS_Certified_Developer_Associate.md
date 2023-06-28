@@ -1,8 +1,7 @@
 # AWS_Certified_Developer_Associate Notes
 ![Developer Associate Badge](https://images.credly.com/size/220x220/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png)
 
-Documenting my preparation for AWS Certified Developer - Associate exam.
-
+The purpose of this is to consolidate and document my preparation for AWS Certified Developer Associate (DVA-C02) exam.
 
 ## Courses
 Video Course:
@@ -26,7 +25,7 @@ Practice exam:
 | Domain 1: Development with AWS Services   | 32%       |
 | Domain 2: Security                        | 26%       |
 | Domain 3: Deployment                      | 24%       |
-| Domain 4: Troubleshooting and Optimization| 24%       |
+| Domain 4: Troubleshooting and Optimization| 18%       |
 | **Total**                                 | **100%**  |
 
 ## Cost

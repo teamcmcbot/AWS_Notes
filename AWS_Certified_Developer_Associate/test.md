@@ -26,10 +26,10 @@ Ordered List:
 
 ## Links and Images
 
-You can create [hyperlinks](https://www.example.com) by enclosing the link text in square brackets and the URL in parentheses.
+You can create [hyperlinks](https://aws.amazon.com/certification/certified-developer-associate/) by enclosing the link text in square brackets and the URL in parentheses.
 
 To embed images, use an exclamation mark followed by square brackets for alt text and parentheses for the image URL:
-![Image alt text](https://www.example.com/image.jpg)
+![Image alt text](https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Developer-Associate_badge.5c083fa855fe82c1cf2d0c8b883c265ec72a17c0.png)
 
 ## Code Blocks
 
@@ -50,3 +50,7 @@ def greet():
 
 ## Blockquotes
 > "Be yourself; everyone else is already taken." - Oscar Wilde
+
+```plaintext
+Hello World!
+```

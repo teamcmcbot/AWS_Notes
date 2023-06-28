@@ -1,5 +1,6 @@
 ## Domain 1: Development with AWS Services 
 Task statement 1: Develop code for applications hosted on AWS.
+
 Knowledge of:
 - Architectural patterns (for example, event-driven, microservices, monolithic, choreography, 
 orchestration, fanout)
@@ -8,6 +9,7 @@ orchestration, fanout)
 - Differences between tightly coupled and loosely coupled components
 - Fault-tolerant design patterns (for example, retries with exponential backoff and jitter, dead-letter queues)
 - Differences between synchronous and asynchronous patterns
+
 Skills in: 
 - Creating fault-tolerant and resilient applications in a programming language (for example, 
 Java, C#, Python, JavaScript, TypeScript, Go)
@@ -18,7 +20,9 @@ Serverless Application Model [AWS SAM])
 - Writing code to use messaging services 
 - Writing code that interacts with AWS services by using APIs and AWS SDKs
 - Handling data streaming by using AWS services
+
 Task Statement 2: Develop code for AWS Lambda.
+
 Knowledge of:
 - Event source mapping
 - Stateless applications
@@ -37,6 +41,7 @@ dead-letter queues)
 - Integrating Lambda functions with AWS services 
 - Tuning Lambda functions for optimal performance
 Task Statement 3: Use data stores in application development.
+
 Knowledge of: 
 - Relational and non-relational databases 
 - Create, read, update, and delete (CRUD) operations
@@ -48,6 +53,7 @@ Knowledge of:
 - Caching strategies (for example, write-through, read-through, lazy loading, TTL)
 - Amazon S3 tiers and lifecycle management
 - Differences between ephemeral and persistent data storage patterns
+
 Skills in:
 - Serializing and deserializing data to provide persistence to a data store
 - Using, managing, and maintaining data stores 
@@ -56,6 +62,7 @@ Skills in:
 
 ## Domain 2: Security 
 Task Statement 1: Implement authentication and/or authorization for applications and AWS services.
+
 Knowledge of:
 - Identity federation (for example, Security Assertion Markup Language [SAML], OpenID 
 Connect [OIDC], Amazon Cognito)
@@ -77,7 +84,9 @@ Identity and Access Management [IAM])
 - Making authenticated calls to AWS services
 - Assuming an IAM role
 - Defining permissions for principals
+
 Task Statement 2: Implement encryption by using AWS services. 
+
 Knowledge of:
 - Encryption at rest and in transit
 - Certificate management (for example, AWS Certificate Manager Private Certificate Authority)
@@ -85,12 +94,15 @@ Knowledge of:
 - Differences between client-side encryption and server-side encryption
 - Differences between AWS managed and customer-managed AWS Key Management Service 
 (AWS KMS) keys
+
 Skills in: 
 - Using encryption keys to encrypt or decrypt data
 - Generating certificates and SSH keys for development purposes
 - Using encryption across account boundaries
 - Enabling and disabling key rotation
+
 Task Statement 3: Manage sensitive data in application code.
+
 Knowledge of:
 - Data classification (for example, personally identifiable information [PII], protected health 
 information [PHI])
@@ -105,6 +117,7 @@ Skills in:
 
 ## Domain 3: Deployment 
 Task Statement 1: Prepare application artifacts to be deployed to AWS.
+
 Knowledge of: 
 - Ways to access application configuration data (for example, AWS AppConfig, Secrets Manager, 
 Parameter Store)
@@ -118,11 +131,14 @@ configuration files, container images) within the package
 - Organizing files and a directory structure for application deployment 
 - Using code repositories in deployment environments 
 - Applying application requirements for resources (for example, memory, cores)
+
 Task Statement 2: Test applications in development environments. 
+
 Knowledge of:
 - Features in AWS services that perform application deployment
 - Integration testing that uses mock endpoints 
 - Lambda versions and aliases
+
 Skills in: 
 - Testing deployed code by using AWS services and tools 
 - Performing mock integration for APIs and resolving integration dependencies 
@@ -130,11 +146,14 @@ Skills in:
 Amazon API Gateway)
 - Deploying application stack updates to existing environments (for example, deploying an AWS 
 SAM template to a different staging environment)
+
 Task Statement 3: Automate deployment testing. 
+
 Knowledge of:
 - API Gateway stages
 - Branches and actions in the continuous integration and continuous delivery (CI/CD) workflow
 - Automated software testing (for example, unit testing, mock testing)
+
 Skills in:
 - Creating application test events (for example, JSON payloads for testing Lambda, API 
 Gateway, AWS SAM resources)
@@ -146,7 +165,9 @@ environments)
 templates, AWS CloudFormation templates)
 - Managing environments in individual AWS services (for example, differentiating between 
 development, test, and production in API Gateway)
+
 Task Statement 4: Deploy code by using AWS CI/CD services.
+
 Knowledge of: 
 - Git-based version control tools (for example, Git, AWS CodeCommit)
 - Manual and automated approvals in AWS CodePipeline
@@ -158,6 +179,7 @@ Cloud Development Kit [AWS CDK], AWS SAM, AWS CodeArtifact, Copilot, Amplify, La
 - Lambda deployment packaging options 
 - API Gateway stages and custom domains
 - Deployment strategies (for example, canary, blue/green, rolling)
+
 Skills in:
 - Updating existing IaC templates (for example, AWS SAM templates, CloudFormation 
 templates)
@@ -172,6 +194,7 @@ staging variables from API Gateway in Lambda functions)
 
 ## Domain 4: Troubleshooting and Optimization 
 Task Statement 1: Assist in a root cause analysis. 
+
 Knowledge of:
 - Logging and monitoring systems 
 - Languages for log queries (for example, Amazon CloudWatch Logs Insights)
@@ -180,6 +203,7 @@ Knowledge of:
 - Common HTTP error codes 
 - Common exceptions generated by SDKs
 - Service maps in AWS X-Ray
+
 Skills in:
 - Debugging code to identify defects
 - Interpreting application metrics, logs, and traces
@@ -187,7 +211,9 @@ Skills in:
 - Implementing custom metrics (for example, CloudWatch embedded metric format [EMF])
 - Reviewing application health by using dashboards and insights
 - Troubleshooting deployment failures by using service output logs 
+
 Task Statement 2: Instrument code for observability. 
+
 Knowledge of:
 - Distributed tracing
 - Differences between logging, monitoring, and observability
@@ -201,12 +227,15 @@ Skills in:
 - Implementing notification alerts for specific actions (for example, notifications about quota 
 limits or deployment completions)
 - Implementing tracing by using AWS services and tools 
+
 Task Statement 3: Optimize applications by using AWS services and features. 
+
 Knowledge of:
 - Caching
 - Concurrency
 - Messaging services (for example, Amazon Simple Queue Service [Amazon SQS], Amazon 
 Simple Notification Service [Amazon SNS])
+
 Skills in:
 - Profiling application performance
 - Determining minimum memory and compute power for an application

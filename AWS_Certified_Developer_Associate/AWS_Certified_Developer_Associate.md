@@ -27,7 +27,9 @@ Practice exam:
 | **Total**                                 | **100%**  |
 
 ## Cost
+| Item                            | Cost                |
+|---------------------------------|---------------------|
 | Udemy course by Stephane Maarek | S$17.98 ~ $13.88 USD|
 | Udemy practice exam             | S$12.98 ~ $10.03 USD|
 | TutorialsDojo practice exam     |           $10.99 USD|
-| **Total**                       |         ~ $34.90 USD|
+| **Total**                       |       **$34.90 USD**|

@@ -54,11 +54,13 @@
 
 ## Provisoned Throughput
 - Provisioned throughput is measured in capacity units.
-```plaintext
-You have a motion sensor which writes 600 items of data every minute. Each item consists of 5KB. What should you set the write throughput to?
 
-One write request unit represents one write for an item up to 1 KB in size. If you write 600 items every minute, it means 10 items are written per second ( 600 / 60 ). The total number of write capacity units required depends on the item size. If your item size is 5 KB, just multiply 10 items by 5 KB, so you require 50 write capacity units to sustain one write request.
-```
+> You have a motion sensor which writes 600 items of data every minute. Each item consists of 5KB. What should you set the write throughput to?
+>
+> - One write request unit represents one write for an item up to 1 KB in size. 
+> - If you write 600 items every minute, it means 10 items are written per second ( 600 / 60 ). 
+> - The total number of write capacity units required depends on the item size. 
+> - If your item size is 5 KB, just multiply 10 items by 5 KB, so you require 50 write capacity units to sustain one write request.
 
 ### Write Capacity Units
 - Each capacity unit gives 1 * 1KB write per second

@@ -41,3 +41,36 @@ Remember, GSIs provide broader querying capabilities with different keys, while 
 ## Scan vs Query API call
 
 ## DynamoDB API Calls
+
+## DynamoDB TTL
+- Defines an expiry time for your data. Once expired, an item is marked for deletion (deleted within 48 hours)
+- Use Case: remove irrelevant or old data (session data, event logs, temporary data)
+- Reduce cost of your table by removing data which is no longer relavant.
+
+## DynamoDB Streams
+- Time ordered sequence of item level modification (insert, update, delete)
+- Data encrypted and stored for 24 hours
+- Can be event source for Lambda
+
+## Provisioned Throughput Exceeded & Exponential Backoff
+- ==ProvisionedThroughputExceededException== error means the number of request is too high.
+- Exponential backoff improves flow by retrying requests using progressively longer waits.
+- Exponential backoff is a feature in every AWS SDK (S3, CloudFormation, SES).
+
+## Exam Tips
+### What is DynamoDB
+- DynamoDB is a low latency NoSQL database.
+### Data Models
+- Supports both document and key-value data models (JSON, HTML, XML).
+
+### Consistency Models:
+- Eventually consistent
+- Strongly consistent
+- DynamoDB Transactions (ACID transactions)
+
+### DynamoDB Features
+- Consists of tables, items, and attributes.
+### 2 Types of Primary Key
+- Partition key
+- Composite key  (partition key + sort key)
+

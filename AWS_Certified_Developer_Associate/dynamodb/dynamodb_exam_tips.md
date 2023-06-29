@@ -58,6 +58,7 @@
     ### Write Capacity Units
     - Each capacity unit gives 1 * 1KB write per second
 
+
     > #### You have a motion sensor which writes 600 items of data every minute. Each item consists of 5KB. What should you set the write throughput to? 
     >
     > - One write request unit represents one write for an item up to 1 KB in size. 
@@ -69,6 +70,7 @@
     ### Strongly Consistent Reads
     - 1 * 4KB read per second
 
+
     > #### You have an application that needs to read 25 items per second and each item is 13KB in size. Your application uses strongly consistent reads. What should you set the read throughput to?
     >
     > - Each Read Capacity unit represents 1 x 4KB Strongly Consistent Read. 
@@ -76,8 +78,9 @@
     
     ### Eventually Consistent Reads (Default)
     - 2 * 4KB reads per second
-    > #### You have an application which reads 80 items of data every second. Each item consists of 3KB. Your application uses eventually consistent reads. What should you set the RCU read throughput to?
 
+
+    > #### You have an application which reads 80 items of data every second. Each item consists of 3KB. Your application uses eventually consistent reads. What should you set the RCU read throughput to?
     >
     > - Each Read Capacity Unit represents 2 x Eventually consistent 4KB reads per second. 
     > - 3KB / 4KB = 0.75 and round up to 1. 
@@ -86,7 +89,6 @@
     > - Therefore the answer is 40 RCU.
 
     > #### You have an application that needs to read 25 items per second and each item is 13KB in size. Your application uses eventually consistent reads. What should you set the read throughput to?
-
     >
     > - Each Read Capacity Unit represents 2 x Eventually consistent 4KB reads per second. 
     > - 13KB / 4KB = 3.25 and round up to 4. 

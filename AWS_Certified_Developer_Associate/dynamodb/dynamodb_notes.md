@@ -53,7 +53,7 @@ Remember, GSIs provide broader querying capabilities with different keys, while 
 - Can be event source for Lambda
 
 ## Provisioned Throughput Exceeded & Exponential Backoff
-- ==ProvisionedThroughputExceededException== error means the number of request is too high.
+- `ProvisionedThroughputExceededException` error means the number of request is too high.
 - Exponential backoff improves flow by retrying requests using progressively longer waits.
 - Exponential backoff is a feature in every AWS SDK (S3, CloudFormation, SES).
 
@@ -73,4 +73,6 @@ Remember, GSIs provide broader querying capabilities with different keys, while 
 ### 2 Types of Primary Key
 - Partition key
 - Composite key  (partition key + sort key)
+
+### Access Control
 

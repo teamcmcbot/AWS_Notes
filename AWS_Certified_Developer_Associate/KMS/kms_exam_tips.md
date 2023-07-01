@@ -93,3 +93,19 @@ aws kms generate-data-key --key-id YOURKEYIDHERE --key-spec AES_256
 - Used for encrypting anything over 4 KB.
 - Avoids sending all your data into KMS over the network.
 - Remember the `GenerateDataKey` API call
+
+## KMS Key Rotation
+- Automatic encryption is available for CMKs.
+- KMS will rotate cryptographic material on `yearly` basis
+- It saves `previous versions` of the cryptographic material so that you can still decrypt files that were previously encrypted.
+
+## Certificate Management
+### AWS Certificate Manager
+- Create and manage SSL/TLS certificates for `securing` your website
+
+### Secure Connections
+- Enables secure connections to your website using `HTTPS`.
+
+### CloudFront
+- When using ACM with CloudFront, the certificate must be created in `us-east-1` region.
+

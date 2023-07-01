@@ -85,3 +85,11 @@ aws kms get-key-rotation-status --key-id YOURKEYIDHERE
 ```plaintext
 aws kms generate-data-key --key-id YOURKEYIDHERE --key-spec AES_256
 ```
+
+## Envelope Encryption
+- Encrypting the key that encrypts our data
+- The CMK is used to encrypt the data key (or envelope key).
+- The data key encrypts our data.
+- Used for encrypting anything over 4 KB.
+- Avoids sending all your data into KMS over the network.
+- Remember the `GenerateDataKey` API call

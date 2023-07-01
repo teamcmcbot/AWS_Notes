@@ -54,9 +54,34 @@ AWS.
 - You can use a CMK to generate, encrypt, and decrypt data keys.
 
 ## KMS API Calls
-> aws kms encrypt --key-id YOURKEYIDHERE --plaintext fileb://secret.txt --output text --query CiphertextBlob | base64 --decode > encryptedsecret.txt
-> aws kms decrypt --ciphertext-blob fileb://encryptedsecret.txt --output text --query Plaintext | base64 --decode > decryptedsecret.txt
-> aws kms re-encrypt --destination-key-id YOURKEYIDHERE --ciphertext-blob fileb://encryptedsecret.txt | base64 > newencryption.txt 
-> aws kms enable-key-rotation --key-id YOURKEYIDHERE
-> aws kms get-key-rotation-status --key-id YOURKEYIDHERE
-> aws kms generate-data-key --key-id YOURKEYIDHERE --key-spec AES_256
+### aws kms encrypt
+- Encrypts plaintext into ciphertext by using a customer master key.
+```plaintext
+aws kms encrypt --key-id YOURKEYIDHERE --plaintext fileb://secret.txt --output text --query CiphertextBlob | base64 --decode > encryptedsecret.txt
+```
+
+### aws kms decypt 
+- Decrypts ciphertext that was encypted by an AWS KMS customer master key (CMK).
+```plaintext
+aws kms decrypt --ciphertext-blob fileb://encryptedsecret.txt --output text --query Plaintext | base64 --decode > decryptedsecret.txt
+
+```
+
+### aws kms re-encrypt
+- Decrypts ciphertext and then re-encypts it entirely within AWS KMS (e.g. when you change the CMK or manually rotate the CMK)
+```plaintext
+aws kms re-encrypt --destination-key-id YOURKEYIDHERE --ciphertext-blob fileb://encryptedsecret.txt | base64 > newencryption.txt
+```
+
+## aws kms enable-key-rotation
+- Enables automatic key rotation every 365 days.
+```plaintext
+aws kms enable-key-rotation --key-id YOURKEYIDHERE
+aws kms get-key-rotation-status --key-id YOURKEYIDHERE
+```
+
+## aws kms generate-data-key
+- Uses the CMK to generate a data key to encrypt data > 4KB. 
+```plaintext
+aws kms generate-data-key --key-id YOURKEYIDHERE --key-spec AES_256
+```

@@ -15,6 +15,9 @@ AWS.
     - CloudTrail
     - Developer Tools
 - With KMS, it is simple to encrypt your data with encryption keys that you manage.
+- KMS encryption keys are single-Region by default
+- KMS multi-Region encryption keys can be created using advanced options and can be replicated into other Regions.
+- You cannot export (copy out of the AWS KMS service in plaintext) your customer master key.
 
 ## CMK Customer Master Key
 - Encrypt / Decrypt data up to 4KB
@@ -93,6 +96,13 @@ aws kms generate-data-key --key-id YOURKEYIDHERE --key-spec AES_256
 - Used for encrypting anything over 4 KB.
 - Avoids sending all your data into KMS over the network.
 - Remember the `GenerateDataKey` API call
+
+> ### What is the name of the practice of encrypting plaintext data with a data key, and then encrypting the data key under another key?
+>
+> Envelope ecryption
+> - When you encrypt your data, your data is protected, but you have to protect your encryption key. One strategy is to encrypt it. Envelope encryption is the practice of encrypting plaintext data with a data key, and then encrypting the data key under another key.
+
+
 
 ## KMS Key Rotation
 - Automatic encryption is available for CMKs.

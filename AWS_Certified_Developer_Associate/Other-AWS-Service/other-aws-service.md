@@ -67,7 +67,64 @@
 
 
 ## SNS Simple Notification Service
+- A webservice that makes it wasy to set up, operate and send notification from the cloud.
+  ### Push Notifications
+  - To devices (e.g. Apple, Google, Windows, Android)
+  ### SMS and email
+  - SMS text message or email to Amazon SQS or any HTTP endpoint
+  ### Lambda
+  - Trigger Lambda functions to process the information in the message, publish to another SNS topic, or send the message to another AWS Service.
+  ### How does it work?
+  - Pub-Sub model, Publish and subscribe.
+  - Applications PUBLISH or PUSH messages to a TOPIC.
+  - Subscribers RECEIVE messages from a TOPIC.
+  ### What is SNS Topic
+  - It is an access point, allowing recipients to subscribe to, and receive identical copies of the same notification.
+  - SNS delivers appropriately-formatted copies of the message to each subscriber (e.g. IOS, Android, SMS)
+
+  ### Durability
+  - Prevents message from being lost.
+  - All message published to Amazon SNS are stored reduntantly across multiple Availability Zones.
+  
+  ### SNS Benefits
+  - Instaneous push-based delivery
+  - Simple APIs and easy integration with applications.
+  - Flexible message delivery over multiple transport protocols.
+  - Inexpensive, pay-as-you-go model, no up-front costs.
+  - Easy to configure, AWS management console, point-and-click interface.
+  - High availability and durability.
+
+  ### SNS vs SQS
+    | SNS                       | SQS                                  |
+    |:--------------------------|:-------------------------------------|
+    | Messaging service.        | Messaging service.                   |
+    | Push-based.               | Pull-based.                          |
+    | Think push notification.  | Think polling the queue for messages |
+
+  ### SNS Exam Tips
+    #### Notifications
+    - Scalable and highly available notification service which allows us to send push notifications from the cloud.
+    #### Message Formats
+    - SMS text message, email, SQS queues, any HTTP endpoint
+    #### Pub-Sub
+    - Pub-sub model whereby users subscribe to topics. Push mechanism rather than a pull (or poll) mechanism.
+
+    | SES                       | SNS                                  |
+    |:--------------------------|:-------------------------------------|
+    | Email messaging service.  | Pub/sub messaging service. SMS, HTTP, SQS, email                   |
+    | Can trigger a Lambda function or SNS notification.               | Can trigger a Lambda function.                          |
+    | Can be used for incoming and outgoing email.  | Can fanout messages to a large number of recipients |
+    | An email address is all that is required to start sending messages. | Consumers must subscribe to a topic to receive the notifications.|
+
   ### SES vs SNS
+    #### Simple Email Service
+    - Scable and Highly Available Email
+    - Send and Receive Email delivered to S3 bucket.
+    - Trigger Lambda and SNS
+      ##### SES use-case
+      - Automated Emails
+      - Online Purchases
+      - Marketing Emails
 
 ## Kinesis 
   ### Kinesis Data Stream

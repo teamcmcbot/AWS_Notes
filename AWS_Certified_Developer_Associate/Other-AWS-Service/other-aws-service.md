@@ -109,12 +109,7 @@
     #### Pub-Sub
     - Pub-sub model whereby users subscribe to topics. Push mechanism rather than a pull (or poll) mechanism.
 
-    | SES                       | SNS                                  |
-    |:--------------------------|:-------------------------------------|
-    | Email messaging service.  | Pub/sub messaging service. SMS, HTTP, SQS, email                   |
-    | Can trigger a Lambda function or SNS notification.               | Can trigger a Lambda function.                          |
-    | Can be used for incoming and outgoing email.  | Can fanout messages to a large number of recipients |
-    | An email address is all that is required to start sending messages. | Consumers must subscribe to a topic to receive the notifications.|
+    
 
   ### SES vs SNS
     #### Simple Email Service
@@ -125,6 +120,16 @@
       - Automated Emails
       - Online Purchases
       - Marketing Emails
+
+    | SES                       | SNS                                  |
+    |:--------------------------|:-------------------------------------|
+    | Email messaging service.  | Pub/sub messaging service. SMS, HTTP, SQS, email                   |
+    | Can trigger a Lambda function or SNS notification.               | Can trigger a Lambda function.                          |
+    | Can be used for incoming and outgoing email.  | Can fanout messages to a large number of recipients |
+    | An email address is all that is required to start sending messages. | Consumers must subscribe to a topic to receive the notifications.|
+
+    ### SES Exam Tips
+    
 
 ## Kinesis 
   ### Kinesis Data Stream

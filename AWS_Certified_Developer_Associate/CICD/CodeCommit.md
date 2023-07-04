@@ -31,11 +31,13 @@
   - Blue represents the active deployment, green is the new release.
 
   ## Differences
+  
     ### In-Place
     - Capacity is reduced during the deployment.
     - Lambda is not supported.
     - Rolling back involves a re-deploy. 
     - Great when deploying the first time.
+
     ### Blue / Green
     - No capacity reduction.
     - Green instances can be created ahead of time.

@@ -35,3 +35,19 @@
 # AWS Whitepaper:
 - Practicing Continous Integration & Contionus Deployment on AWS
 - <https://docs.aws.amazon.com/pdfs/whitepapers/latest/practicing-continuous-integration-continuous-delivery/practicing-continuous-integration-continuous-delivery.pdf>
+
+# Summary
+## AWS CodeCommit 
+- AWS CodeCommit is a fully managed source code control service that enables you to securely store and manage your private Git repositories. It provides a scalable and reliable version control system, allowing teams to collaborate on code changes and track changes over time.
+
+## AWS CodePipeline
+- AWS CodePipeline is a fully managed continuous integration and continuous delivery (CI/CD) service. It enables you to automate your software release process, from building and testing code to deploying applications. CodePipeline allows you to define and visualize your release pipelines and integrates with various AWS and third-party tools.
+
+## AWS CodeBuild
+- AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces ready-to-deploy software packages. It scales automatically and provides a controlled, consistent environment for building applications. CodeBuild supports popular programming languages and integrates with other AWS services and build tools.
+
+## AWS CodeDeploy
+- AWS CodeDeploy is a fully managed deployment service that automates application deployments to various compute services, including Amazon EC2 instances, AWS Lambda functions, and on-premises servers. It allows you to deploy applications from your code repositories, providing options for deployment strategies and rollbacks.
+
+## AWS CodeStar
+- AWS CodeStar is a fully integrated development environment (IDE) for developing, building, and deploying applications on AWS. It provides a centralized dashboard for managing your software development projects and offers pre-configured project templates, development tools, and integrations with other AWS services to streamline the development process.

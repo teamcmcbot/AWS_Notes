@@ -51,3 +51,6 @@
 
 ## AWS CodeStar
 - AWS CodeStar is a fully integrated development environment (IDE) for developing, building, and deploying applications on AWS. It provides a centralized dashboard for managing your software development projects and offers pre-configured project templates, development tools, and integrations with other AWS services to streamline the development process.
+
+## AWS CodeArtifact
+- AWS CodeArtifact is a fully managed artifact repository service for securely storing and sharing software packages. It provides a centralized location for storing dependencies, build artifacts, and other software components. CodeArtifact integrates with popular build tools and package managers, enabling secure and reliable artifact management.

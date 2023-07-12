@@ -2,7 +2,6 @@
 
 ## AWS Managed Policies
 - IAM policy created and administered by AWS
-    e.g. Default policies
     - AmazonDynamoDBFullAccess 
     - AWSCodeCommitPowerUser
     - AmazonEC2ReadOnlyAccess
@@ -27,4 +26,7 @@
 
 ![IAM Policies](IAM-policies.png)
 
+
+## When would you use inline policies?
+- specified requirements where you need to be sure that a set of permissions are only ever applied to a specific user, group or role and that they can never be applied to another user.
 

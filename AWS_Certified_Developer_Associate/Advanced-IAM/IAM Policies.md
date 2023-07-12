@@ -2,7 +2,7 @@
 
 ## AWS Managed Policies
 - IAM policy created and administered by AWS
-    ### AWS managed default policies
+    e.g. Default policies
     - AmazonDynamoDBFullAccess 
     - AWSCodeCommitPowerUser
     - AmazonEC2ReadOnlyAccess

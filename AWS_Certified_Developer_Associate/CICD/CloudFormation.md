@@ -24,3 +24,4 @@
 - After creating the template, you upload it to CloudFormation where it is stored in S3. 
 - CloudFormation reads the template and makes API calls on your behalf.
 - The resulting set of resourcs that CloudFormation builds from your template is called a "stack".
+

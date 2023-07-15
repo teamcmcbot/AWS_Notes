@@ -24,7 +24,7 @@
 
 *AWS recommends using managed policies over inline policies.*
 
-![IAM Policies](IAM-policies.png)
+![IAM Policies](images/IAM-policies.png)
 
 
 ## When would you use inline policies?

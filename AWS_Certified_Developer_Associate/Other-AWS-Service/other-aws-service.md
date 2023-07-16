@@ -132,8 +132,23 @@
     
 
 ## Kinesis 
-  ### Kinesis Data Stream
-  ### Kinesis Shards and Consumers
+Greek Word for movement or motion.
+Amazon Kinesis deals with data in motion, or streaming data.
+
+  ### Kinesis Stream
+  - Data Streams
+  - Video Streams
+  ### Kinesis Data Firehose
+  - Capture, transform and load data streams into AWS data stores to enable near real-time analytics with BI tools
+  ### Kinesis Data Analytics
+  - Analyse, query, and transform streamed data in real time using standard SQL. 
+
+  ### Stream vs Firehose vs Analytics
+  | Streams                         | Firehose         | Analytics          |
+  |:--------------------------------|:--------------------|:----------------|
+  | Capture and store streaming video and data. Consumer applications process and analyse the data in real time | Capture, transform and load data continously into AWS data stores. Existing BI applications and tools can be used for near real-time analysis of the stored data. | Real-time analytics using standard SQL on data retreived by Kinesis Data Streams and Kinesis Data Firehose. Stores and processed data in AWS data stores (e.g. S3, Redshift or OpenSearch). |
+  
+
 
 ## Elastic Beanstalk
 

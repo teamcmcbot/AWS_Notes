@@ -214,9 +214,9 @@ Amazon Kinesis deals with data in motion, or streaming data.
     #### Platform Hooks
     - Custom scripts or executables that runs at various stages when EC2 instances are provisioned.
     - Amazon Linux 2
-    > platform/hooks/prebuild
-    > platform/hooks/predeploy
-    > platform/hooks/postdeploy
+      - platform/hooks/prebuild 
+      - platform/hooks/predeploy 
+      - platform/hooks/postdeploy 
      
 
 ## RDS & Elastic Beanstalk

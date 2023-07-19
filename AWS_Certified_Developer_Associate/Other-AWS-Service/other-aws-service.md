@@ -149,12 +149,12 @@ Amazon Kinesis deals with data in motion, or streaming data.
   | `Capture` and `store` streaming `video` and `data`. Consumer applications process and analyse the data in real time | `Capture`, `transform` and `load` data continously into AWS `data stores`. Existing BI applications and tools can be used for near real-time analysis of the stored data. | `Real-time analytics` using standard `SQL` on data `received by Kinesis Data Streams and Kinesis Data Firehose`. Stores and processed data in AWS data stores (e.g. S3, Redshift or OpenSearch). |
   
   ### Kinesis Shards and Consumers
-  ![Kinesis recap](images/kinesis-shard-consumer.png)
+  ![Kinesis recap](images/kinesis-shard-consumers.png)
   #### Shards
 
   #### Consumers
 
-  ![Kinesis Reshard](/images/kinesis-reshard.png)
+  ![Kinesis Reshard](images/kinesis-reshard.png)
 
   #### Summary
   - The Kinesis Client Library running on your consumers creates a record processor for each shard that is being consumed by your instance.

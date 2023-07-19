@@ -171,14 +171,67 @@ Amazon Kinesis deals with data in motion, or streaming data.
 - You are in Control
   - Complete Administrative control of the AWS resouces.
 
-### Elastic Beanstalk Summary
-- Deploy and scale your web applications, including the web application server platform.
-- Programming Languages: Java, PHP, Python, Ruby, Go, .NET, Node.js
-- Managed Platforms: Apache Tomcat, Docker.
-- Provision AWS Resorces: EC2, RDS, S3, Elastic Load Balancers, Auto Scaling Group, etc
-- System Administration: OS and application server updates. Monitoring, metrics, and health checks.
-- Adminstrative Control: Fully manage the EC2 instances for you, or can take full administrative control.
+  ### Elastic Beanstalk Summary
+  - Deploy and scale your web applications, including the web application server platform.
+  - Programming Languages: Java, PHP, Python, Ruby, Go, .NET, Node.js
+  - Managed Platforms: Apache Tomcat, Docker.
+  - Provision AWS Resorces: EC2, RDS, S3, Elastic Load Balancers, Auto Scaling Group, etc
+  - System Administration: OS and application server updates. Monitoring, metrics, and health checks.
+  - Adminstrative Control: Fully manage the EC2 instances for you, or can take full administrative control.
+
+  ### Elastic Beanstalk deployment types
+    #### All at Once
+    - Involves a service interruption.
+    - Rolling back requires a further All at Once update.
+    #### Rolling
+    - Reduced capacity during deployment.
+    - Rolling back requires a further Rolling update.
+    #### Rolling with Additional Batch
+    - Maintains full capacity.
+    - Rolling back requires a further Rolling update.
+    #### Immutable
+    - Maintains full capacity.
+    - To roll back, delete the new instances. 
+    - Preferred option for mission critical production systems.
+    #### Traffic Splitting
+    - Performs an Immutable deployment and then splits the traffic between the old and new deployment, enabling Canary Testing.
+
+  ### Advanced Elastic Beanstalk 
+  Customize Elastic Beanstalk environment:
+    #### .ebextenstions folder
+    - located in top-level directory of application source code bundle.
+    - Files mut have .config extension (e.g. healthcheckurl.config)
+    - Amazon Linux 1
+
+    #### Buildfile
+    - Create a Buildfile in root directory of application source for commands that exit upon completion (e.g. shell scripts)
+    - Amazon Linux 2
+
+    #### Procfile
+    - Create Procfile for long-running processes (e.g, custom commands to start your application)
+    - Amazon Linux 2
+
+    #### Platform Hooks
+    - Custom scripts or executables that runs at various stages when EC2 instances are provisioned.
+    - Amazon Linux 2
+    > platform/hooks/prebuild
+    > platform/hooks/predeploy
+    > platform/hooks/postdeploy
+     
 
 ## RDS & Elastic Beanstalk
+  ### Option 1: Launch RDS inside of Elastic Beanstalk
+  - Quick and easy to add db and get started
+  - When you terminate Elastic Beanstalk environment, the database will also be terminated.
+  - Suitable for Dev and Test environments.
+  ### Option 2: Launch RDS outside of Elastic Beanstalk
+  - You can tear down the application stack without impacting the database.
+  - Additional configuration steps required - Security Group, and connection informations as environment properties.
+  - Suitable for PROD environments
+
+## Migrating applications to Elastic Beanstalk
+- Windows Web Application Migration Assistant for Elastic Beanstalk
+  - Formerly named the .NET Migration Assistant.
+  - Open-source, interactive PowerShell utility that migrats Windows server to Elastic Beanstalk.
 
 ## Other AWS Servics Summary

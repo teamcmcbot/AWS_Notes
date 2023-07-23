@@ -108,3 +108,31 @@ For the AWS Certified Developer Associate exam, it's important to have a broad u
 ## Best Practices
 - Understand best practices for designing tables, choosing primary keys, and avoiding hot partitions.
 - Be aware of best practices for cost optimization.
+
+
+# DynamoDB Read/Write Capacity Units (RCUs and WCUs)
+
+## Read Capacity Units (RCUs)
+- One RCU represents one strongly consistent read per second, or two eventually consistent reads per second, for an item up to 4 KB in size.
+- If your read operation retrieves items larger than 4 KB, you will need additional RCUs. For example, a strongly consistent read of an 8 KB item would require 2 RCUs.
+
+## Write Capacity Units (WCUs)
+- One WCU represents one write per second for an item up to 1 KB in size.
+- If your write operation involves items larger than 1 KB, you will need additional WCUs. For example, a write of a 3 KB item would require 3 WCUs.
+
+## Provisioned Throughput
+- When you create a table or a global secondary index, you set the provisioned read and write capacity to the estimated number of RCUs and WCUs that you need.
+- However, if your application's traffic pattern is variable, you should consider enabling auto scaling.
+
+## Auto Scaling
+- With auto scaling, DynamoDB automatically adjusts the number of RCUs and WCUs up or down in response to actual workloads.
+- This feature can help optimize costs by ensuring that you only pay for the throughput you need.
+
+## Burst Capacity
+- DynamoDB provides a limited burst capacity pool for tables to handle sudden increases in traffic.
+- New tables and indexes have 300 WCUs and 100 RCUs of burst capacity, while existing tables and indexes have their burst capacity gradually refilled during periods of inactivity.
+
+
+![Write Capacity Unit](images/WCU.png)
+
+![Read Capacity Unit](images/RCU.png)

@@ -45,3 +45,66 @@ Here are some of the key parameters you should be familiar with for the AWS Deve
 | `IndexName` | The name of a secondary index to scan. This index can be any local secondary index or global secondary index. |
 
 For the AWS Developer Associate exam, you should be familiar with these parameters and understand how they are used in different scenarios. You should also understand the difference between a `Query` and a `Scan` operation, how to use secondary indexes, and how to design and interact with DynamoDB tables in a way that optimizes for performance and cost.
+
+
+# DynamoDB - Basics
+
+- DynamoDB is made of Tables
+- Each table has a Primary Key (must be decided at creation time)
+- Each table can have an infinite number of items (= rows)
+- Each item has attributes (can be added over time – can be null)
+- Maximum size of an item is 400KB
+- Data types supported are:
+    - Scalar Types
+        - String
+        - Number
+        - Binary
+        - Boolean
+        - Null
+    - Document Types
+        - List
+        - Map
+    - Set Types
+        - String Set
+        - Number Set
+        - Binary Set
+For the AWS Certified Developer Associate exam, it's important to have a broad understanding of DynamoDB, as well as how it interacts with other AWS services. Here are some key areas you should focus on:
+
+# AWS Certified Developer Associate: DynamoDB Study Points
+
+## Basics of DynamoDB
+- Understand what DynamoDB is and its key features.
+- Know about tables, items, attributes, primary keys, and indexes.
+- Understand different types of primary keys (partition key and composite key).
+- Be aware of the maximum item size (400KB).
+
+## Capacity Units and Performance
+- Understand Read Capacity Units (RCUs) and Write Capacity Units (WCUs).
+- Understand provisioned and on-demand capacity modes.
+- Know about auto-scaling.
+
+## DynamoDB Indexes
+- Understand the purpose and use cases of Global Secondary Indexes (GSIs) and Local Secondary Indexes (LSIs).
+- Know the differences between GSIs and LSIs.
+
+## Consistency Models
+- Understand the difference between strongly consistent and eventually consistent reads.
+
+## DynamoDB Streams and Lambda Triggers
+- Understand DynamoDB Streams and common use cases.
+- Know how to use AWS Lambda with DynamoDB to create triggers.
+
+## DynamoDB and DAX
+- Know what Amazon DynamoDB Accelerator (DAX) is and when to use it.
+- Understand the benefits of DAX.
+
+## Security
+- Understand how to control access to DynamoDB using IAM policies.
+- Be aware of encryption at rest and in transit.
+
+## Integration with other AWS Services
+- Understand how DynamoDB can integrate with other services like AWS Lambda, API Gateway, and S3.
+
+## Best Practices
+- Understand best practices for designing tables, choosing primary keys, and avoiding hot partitions.
+- Be aware of best practices for cost optimization.

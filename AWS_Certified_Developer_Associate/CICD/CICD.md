@@ -54,3 +54,6 @@
 
 ## AWS CodeArtifact
 - AWS CodeArtifact is a fully managed artifact repository service for securely storing and sharing software packages. It provides a centralized location for storing dependencies, build artifacts, and other software components. CodeArtifact integrates with popular build tools and package managers, enabling secure and reliable artifact management.
+
+## AWS CodeGuru
+- automated code reviews using machine learning

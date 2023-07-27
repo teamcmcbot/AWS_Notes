@@ -92,5 +92,33 @@
 - `AllowTraffic`: Register instance with a LB
 - `AfterAllowTraffic`: Task to run on instance after they are registered to LB.
 
+## CodeCommit vs GitHub, GitLab, Bitbucket...
+- Git repositories can be expensive
+- AWS CodeCommit:
+  - Private Git reporsitories
+  - No size limit on repositories (scale seamlessly)
+  - Fully managed, highly available
+  - Code only in AWS account -> increased security and compliance
+  - Security (encrypted, access control...)
+  - Integrated with Jenkins, AWS CodeBuild, and other CI tools
+
+
+## CodeCommit – Security 
+
+* Interactions are done using Git (standard)
+* Authentication
+    * SSH Keys – AWS Users can configure SSH keys in their IAM Console
+    * HTTPS – with AWS CLI Credential helper or Git Credentials for IAM user
+* Authorization
+    * IAM policies to manage users/roles permissions to repositories
+* Encryption
+    * Repositories are automatically encrypted at rest using AWS KMS
+    * Encrypted in transit (can only use HTTPS or SSH – both secure)
+* Cross-account Access
+    * **Do NOT share your SSH keys or your AWS credentials**
+    * Use an IAM Role in your AWS account and use AWS STS (AssumeRole API)
+
+
+
 
 

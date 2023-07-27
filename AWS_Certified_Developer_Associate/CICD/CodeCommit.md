@@ -119,6 +119,21 @@
     * Use an IAM Role in your AWS account and use AWS STS (AssumeRole API)
 
 
+Here is the text you provided in Markdown format:
+
+---
+
+# CodeCommit vs. GitHub
+
+| Features | CodeCommit | GitHub |
+| --- | --- | --- |
+| Support Code Review (Pull Requests) |&#x2713; |&#x2713; |
+| Integration with AWS CodeBuild |&#x2713; |&#x2713; |
+| Authentication (SSH & HTTPS) |&#x2713; |&#x2713; |
+| Security | IAM Users & Roles | GitHub Users |
+| Hosting | Managed & hosted by AWS | - Hosted by GitHub <br> - GitHub Enterprise: self hosted on your servers |
+| UI | Minimal | Fully Featured |
+
 
 
 

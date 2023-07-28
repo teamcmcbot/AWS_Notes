@@ -25,3 +25,8 @@
 - CloudFormation reads the template and makes API calls on your behalf.
 - The resulting set of resourcs that CloudFormation builds from your template is called a "stack".
 
+## CodePipeline – CloudFormation Integration
+* CloudFormation is used to deploy complex infrastructure using an API • CREATE_UPDATE – create or update an existing stack
+* DELETE_ONLY – delete a stack if it exists
+
+![CloudFormation-Integration](images/cloudformation-integration.png)

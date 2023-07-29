@@ -36,4 +36,5 @@
 * Prepackaged with essential tools for popular programming languages (JavaScript, Python, PHP,...)
 * Share your development environment with your team (pair programming)
 * Fully integrated with AWS SAM & Lambda to easily build serverless applications
+
 <https://aws.amazon.com/cloud9/>

@@ -35,7 +35,7 @@
 - Elastic Beanstalk supports Docker containers.
 
 ## Elastic Beanstalk Workflow
-!<ElasticBeanstalkWorkflow>(images/elastic-beanstalk-workflow.jpeg)
+![ElasticBeanstalkWorkflow](images/elastic-beanstalk-workflow.jpeg)
 - Your application’s domain name is in the format: `subdomain.region.elasticbeanstalk.com`
 
 # Environment Pages
